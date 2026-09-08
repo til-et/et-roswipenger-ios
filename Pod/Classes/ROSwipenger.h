@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <PureLayout/PureLayout.h>
+#import "PureLayout.h"
 @protocol swipeDelegate <NSObject>
 -(void) loadPageAtIndex:(int)index;
 
