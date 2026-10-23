@@ -11,7 +11,7 @@ To run the example project, clone the repo and open `Example/ROSwipenger.xcodepr
 ROSwipenger is available through [Swift Package Manager](https://www.swift.org/documentation/package-manager/). In Xcode, choose **File > Add Package Dependencies…** and enter the repository URL, or add it to your `Package.swift`:
 
     dependencies: [
-        .package(url: "https://github.com/til-et/et-roswipenger-ios.git", branch: "master")
+        .package(url: "https://github.com/til-et/et-roswipenger-ios.git", from: "2.0.0")
     ]
 
 Then import it:
