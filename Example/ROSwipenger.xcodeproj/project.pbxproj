@@ -3,15 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1B2C3D41F0000000000A003 /* ROSwipenger in Frameworks */ = {isa = PBXBuildFile; productRef = A1B2C3D41F0000000000A002 /* ROSwipenger */; };
 		448D874D1A3F730500B3BE95 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D87471A3F730500B3BE95 /* ImageViewController.m */; };
 		448D874E1A3F730500B3BE95 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 448D87481A3F730500B3BE95 /* ImageViewController.xib */; };
 		448D874F1A3F730500B3BE95 /* ROAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D874A1A3F730500B3BE95 /* ROAppDelegate.m */; };
 		448D87501A3F730500B3BE95 /* ROViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D874C1A3F730500B3BE95 /* ROViewController.m */; };
-		44DFABE51AA8A5DF00A73F44 /* libPods-ROSwipenger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44DFABE41AA8A5DF00A73F44 /* libPods-ROSwipenger.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +23,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		93E2465E31DD57915F0BDA76 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B85C5B5C6EA4E825205747B1 /* libPods-Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +43,6 @@
 		448D874A1A3F730500B3BE95 /* ROAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROAppDelegate.m; sourceTree = "<group>"; };
 		448D874B1A3F730500B3BE95 /* ROViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROViewController.h; sourceTree = "<group>"; };
 		448D874C1A3F730500B3BE95 /* ROViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROViewController.m; sourceTree = "<group>"; };
-		44DFABE21AA8A5D900A73F44 /* libPods-ROSwipenger-ROSwipenger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-ROSwipenger-ROSwipenger.a"; path = "Pods/build/Debug-iphoneos/libPods-ROSwipenger-ROSwipenger.a"; sourceTree = "<group>"; };
-		44DFABE41AA8A5DF00A73F44 /* libPods-ROSwipenger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-ROSwipenger.a"; path = "Pods/build/Debug-iphoneos/libPods-ROSwipenger.a"; sourceTree = "<group>"; };
 		58FB5643EEE2BCE5709A30B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ROSwipenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROSwipenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,14 +59,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6B5ABC3A206AAD553B9D182E /* ROSwipenger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ROSwipenger.podspec; path = ../ROSwipenger.podspec; sourceTree = "<group>"; };
-		6F4208EBBC09FED03800BFE2 /* Pods-ROSwipenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROSwipenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ROSwipenger/Pods-ROSwipenger.debug.xcconfig"; sourceTree = "<group>"; };
-		8DE5EE67976D392B6A8CCAA5 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AF785F0EA61D884BDDD39FF2 /* Pods-ROSwipenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROSwipenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-ROSwipenger/Pods-ROSwipenger.release.xcconfig"; sourceTree = "<group>"; };
-		B85C5B5C6EA4E825205747B1 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5ABC3A206AAD553B9D182E /* Package.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
 		D6D37D0899EDBCE902844520 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E8BE33783826DC946B299F05 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F83CDA97FCFB05E444B4CC30 /* libPods-ROSwipenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROSwipenger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44DFABE51AA8A5DF00A73F44 /* libPods-ROSwipenger.a in Frameworks */,
+				A1B2C3D41F0000000000A003 /* ROSwipenger in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -91,7 +82,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				93E2465E31DD57915F0BDA76 /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +91,11 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				60FF7A9C1954A5C5007DD14C /* Package Metadata */,
 				6003F593195388D20070C39A /* ROSwipenger */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				864DB6BF49CC3D2F3B5CF022 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,14 +111,10 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				44DFABE41AA8A5DF00A73F44 /* libPods-ROSwipenger.a */,
-				44DFABE21AA8A5D900A73F44 /* libPods-ROSwipenger-ROSwipenger.a */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				F83CDA97FCFB05E444B4CC30 /* libPods-ROSwipenger.a */,
-				B85C5B5C6EA4E825205747B1 /* libPods-Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,25 +165,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+		60FF7A9C1954A5C5007DD14C /* Package Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				6B5ABC3A206AAD553B9D182E /* ROSwipenger.podspec */,
+				6B5ABC3A206AAD553B9D182E /* Package.swift */,
 				58FB5643EEE2BCE5709A30B6 /* README.md */,
 				D6D37D0899EDBCE902844520 /* LICENSE */,
 			);
-			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		864DB6BF49CC3D2F3B5CF022 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6F4208EBBC09FED03800BFE2 /* Pods-ROSwipenger.debug.xcconfig */,
-				AF785F0EA61D884BDDD39FF2 /* Pods-ROSwipenger.release.xcconfig */,
-				E8BE33783826DC946B299F05 /* Pods-Tests.debug.xcconfig */,
-				8DE5EE67976D392B6A8CCAA5 /* Pods-Tests.release.xcconfig */,
-			);
-			name = Pods;
+			name = "Package Metadata";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,17 +182,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ROSwipenger" */;
 			buildPhases = (
-				348B6E5E5CC2BAC52110F2D8 /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				48018A14CA51C5ACBE1B8D55 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ROSwipenger;
+			packageProductDependencies = (
+				A1B2C3D41F0000000000A002 /* ROSwipenger */,
+			);
 			productName = ROSwipenger;
 			productReference = 6003F58A195388D20070C39A /* ROSwipenger.app */;
 			productType = "com.apple.product-type.application";
@@ -227,11 +202,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
-				2D9DC032EDA5EECBD4D015DE /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				FFEF69A5BB59B1E337B1CB94 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,14 +235,18 @@
 				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ROSwipenger" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
 			mainGroup = 6003F581195388D10070C39A;
+			packageReferences = (
+				A1B2C3D41F0000000000A001 /* XCLocalSwiftPackageReference ".." */,
+			);
 			productRefGroup = 6003F58B195388D20070C39A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -300,69 +277,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		2D9DC032EDA5EECBD4D015DE /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		348B6E5E5CC2BAC52110F2D8 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		48018A14CA51C5ACBE1B8D55 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROSwipenger/Pods-ROSwipenger-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FFEF69A5BB59B1E337B1CB94 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6003F586195388D20070C39A /* Sources */ = {
@@ -446,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -479,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -488,7 +402,6 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F4208EBBC09FED03800BFE2 /* Pods-ROSwipenger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -496,10 +409,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ROSwipenger/ROSwipenger-Prefix.pch";
 				INFOPLIST_FILE = "ROSwipenger/ROSwipenger-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -507,7 +416,6 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF785F0EA61D884BDDD39FF2 /* Pods-ROSwipenger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -515,10 +423,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ROSwipenger/ROSwipenger-Prefix.pch";
 				INFOPLIST_FILE = "ROSwipenger/ROSwipenger-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -526,7 +430,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8BE33783826DC946B299F05 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ROSwipenger.app/ROSwipenger";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -549,7 +452,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DE5EE67976D392B6A8CCAA5 /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ROSwipenger.app/ROSwipenger";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -597,6 +499,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A1B2C3D41F0000000000A001 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1B2C3D41F0000000000A002 /* ROSwipenger */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ROSwipenger;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6003F582195388D10070C39A /* Project object */;
 }

@@ -16,7 +16,6 @@ let package = Package(
             dependencies: [
                 .product(name: "PureLayout", package: "PureLayout")
             ],
-            path: "Pod/Classes",
             publicHeadersPath: "."
         )
     ]

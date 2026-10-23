@@ -1,20 +1,22 @@
 # ROSwipenger
 
 [![CI Status](http://img.shields.io/travis/Heather Snepenger/ROSwipenger.svg?style=flat)](https://travis-ci.org/Heather Snepenger/ROSwipenger)
-[![Version](https://img.shields.io/cocoapods/v/ROSwipenger.svg?style=flat)](http://cocoadocs.org/docsets/ROSwipenger)
-[![License](https://img.shields.io/cocoapods/l/ROSwipenger.svg?style=flat)](http://cocoadocs.org/docsets/ROSwipenger)
-[![Platform](https://img.shields.io/cocoapods/p/ROSwipenger.svg?style=flat)](http://cocoadocs.org/docsets/ROSwipenger)
 
 ![alt text](https://github.com/Rounded/ROSwipenger/blob/master/demo.gif "Demo")
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo and open `Example/ROSwipenger.xcodeproj`. Xcode resolves the dependencies automatically.
 
-ROSwipenger is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+ROSwipenger is available through [Swift Package Manager](https://www.swift.org/documentation/package-manager/). In Xcode, choose **File > Add Package Dependencies…** and enter the repository URL, or add it to your `Package.swift`:
 
-    pod "ROSwipenger"
+    dependencies: [
+        .package(url: "https://github.com/til-et/et-roswipenger-ios.git", branch: "master")
+    ]
+
+Then import it:
+
+    @import ROSwipenger;
 
 
 1. Create the `ROSwipenger` view controller:

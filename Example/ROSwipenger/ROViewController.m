@@ -7,7 +7,7 @@
 //
 
 #import "ROViewController.h"
-#import <ROSwipenger/ROSwipenger.h>
+@import ROSwipenger;
 #import "ImageViewController.h"
 
 @interface ROViewController ()
